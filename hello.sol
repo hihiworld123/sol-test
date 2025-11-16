@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
-
 contract Hello3Dot0 {
-
     // string public  hello ="hello 3.0!";
 
     // int public account = -1*2**255;
@@ -25,7 +23,6 @@ contract Hello3Dot0 {
     //     Inactive
     // }
 
-
     // int[] public arr;
 
     // string[] public arr2;
@@ -45,16 +42,26 @@ contract Hello3Dot0 {
 
     // Person public p = Person(10,false,"Tom");
 
-
     string private hello = "hello";
 
-    function sayHello(string memory name) public view returns(string memory){
-        return string.concat(hello,name);
+    function sayHello(string memory name) public view returns (string memory) {
+        return string.concat(hello, name);
     }
 
+    function syaHello2(
+        string memory name
+    ) internal view returns (string memory) {
+        return string.concat(hello, name);
+    }
 
+    function concat1(
+        string memory base,
+        string memory name
+    ) public pure returns (string memory) {
+        return string.concat(base, name);
+    }
 
-
-
-
+    function setHello(string memory str) public {
+        hello = str;
+    }
 }
