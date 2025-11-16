@@ -7,25 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "_data",
+				"name": "a",
 				"outputs": [
 					{
-						"internalType": "bytes",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "bs",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -35,16 +22,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "i",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "readBytesByIndex",
+				"name": "arr",
 				"outputs": [
 					{
-						"internalType": "bytes1",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes1"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -53,43 +40,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "bytes1",
-						"name": "d",
-						"type": "bytes1"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "readBytestIndexByBytes1",
+				"name": "arr2",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "str0",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "str1",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -98,30 +59,148 @@
 			{
 				"inputs": [
 					{
-						"internalType": "bytes",
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
 						"name": "data",
-						"type": "bytes"
+						"type": "uint256[]"
 					},
 					{
 						"internalType": "uint256",
-						"name": "start",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "end",
+						"name": "length",
 						"type": "uint256"
 					}
 				],
-				"name": "testSlice",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readArr2",
 				"outputs": [
 					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readArr3",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readStaticArr",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "data",
+						"type": "uint256[3]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readStaticArr1",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "data",
+						"type": "uint256[3]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "staticArr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "staticArr1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -138,7 +217,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"array1.sol": "ArrayContract"
+			"array.sol": "ArrayContract"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -152,12 +231,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"array1.sol": {
-			"keccak256": "0xdba9f9a4a26eac65fa4264c2cab935f1d4fd303f3f0c92ce14df822a4a8d4d8e",
+		"array.sol": {
+			"keccak256": "0xfeb9bb07a841ce90bef0436dbb334395e04a5e5b5303aedf57220f45ad4deacd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eb65c6fd2f67852d00761cadda917170bb999f5f23cbbb1ce3d88fa9eeab4d6d",
-				"dweb:/ipfs/QmeDHXmsMhitbhM6uriYDr1e34Q84dn5CijR3URrw8DhrZ"
+				"bzz-raw://d76d709d98efbe8ccea90053887cea6b93c5eebe4fa645f92ec48d5fa4733796",
+				"dweb:/ipfs/QmYb6FQKQNa5xZtSmTE6KPjZPBTezgoVx3DbvzxhrTMc3k"
 			]
 		}
 	},
