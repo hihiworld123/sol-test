@@ -49,4 +49,22 @@ contract ABI {
         bytes memory data = abi.encodePacked(input);
         return (keccak256(data), sha256(data), ripemd160(data));
     }
+
+    function modularMath(
+        uint256 x,
+        uint256 y,
+        uint256 m
+    ) public pure returns (uint256, uint256) {
+        return (addmod(x, y, m), mulmod(x, y, m));
+    }
+
+    //椭圆曲线生成公钥
+    function recoverAddress(
+        bytes32 hash,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) public pure returns (address) {
+        return ecrecover(hash, v, r, s);
+    }
 }

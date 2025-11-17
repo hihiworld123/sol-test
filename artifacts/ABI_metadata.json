@@ -8,6 +8,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "func",
+						"type": "string"
+					}
+				],
+				"name": "computeSelector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "bytes",
 						"name": "encodedData",
 						"type": "bytes"
@@ -60,12 +79,146 @@
 			},
 			{
 				"inputs": [],
+				"name": "encodeFunctionCall",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getSelector",
 				"outputs": [
 					{
 						"internalType": "bytes4",
 						"name": "",
 						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "hashFunctions",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "m",
+						"type": "uint256"
+					}
+				],
+				"name": "modularMath",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "recoverAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "pure",
@@ -100,11 +253,11 @@
 	},
 	"sources": {
 		"ABI.sol": {
-			"keccak256": "0x3a3e80e12effe3943778b17e9543b139a4fdbfe565fb78777102b59ea7446613",
+			"keccak256": "0xf3e55bd6231450f2e81c63466e8a671bf0e497c691aa755cc4661f38d80e8830",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eeec2f262897f435d673701f5ecb278b96ca620d3efa2661f4c4b84b7d71fcae",
-				"dweb:/ipfs/QmZNcbH2gyVCBhRt5boKxk3K94frC4TLgX2aqaT6KF184Q"
+				"bzz-raw://408b86b8f7e184025338261c8dadf7a03c1d101f352755281063acf78cb89dd5",
+				"dweb:/ipfs/QmbfSXCoxpnmAdeisZ4rvxRxA9bXVz3rxVYSt7PJqC3V9L"
 			]
 		}
 	},
