@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "he",
+				"outputs": [
+					{
+						"internalType": "contract HandleError",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "condition",
+						"type": "bool"
+					}
+				],
+				"name": "trycatch",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HandleError.sol": "catchTryContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HandleError.sol": {
+			"keccak256": "0x3379808f711b451fccb63030a02539b26ccb723a3b35ebf0b7b44b13d72e5b23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79071265c5b8024c3dd9ae1fde9043004079b7c9022f6fdc06c17886c11e6a40",
+				"dweb:/ipfs/QmcCBrB1UixrMCBQy4BcQgeRDs9uY4JVtDe6eVC5JYp7fA"
+			]
+		}
+	},
+	"version": 1
+}
