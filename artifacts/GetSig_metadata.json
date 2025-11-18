@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSig",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyContract.sol": "GetSig"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyContract.sol": {
+			"keccak256": "0xb41444ae851e9327a626677317b7ca3298512d7de07b55d5a25ccbaf1245b95b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cffdef41137b67cc2160023b8061e9e370f530c6be1ccf085c234589f54553b5",
+				"dweb:/ipfs/QmcUiQEhnK8kVN9LCCkXYGNAHv5AYt4FeG6uEzFeXdAHHm"
+			]
+		}
+	},
+	"version": 1
+}
