@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task/task01/voting.sol": "Voting"
+			"task/task01/1.voting.sol": "Voting"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"task/task01/voting.sol": {
+		"task/task01/1.voting.sol": {
 			"keccak256": "0x71deb7ab6cab994a43f0a8f79b133219750b65def33ddb20b11adfc3884c175b",
 			"license": "MIT",
 			"urls": [

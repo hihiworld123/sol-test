@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task/task01/IntToRoman.sol": "IntToRoman"
+			"task/task01/3.IntToRoman.sol": "IntToRoman"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"task/task01/IntToRoman.sol": {
+		"task/task01/3.IntToRoman.sol": {
 			"keccak256": "0x811a5ed60531e4720d642a98821d2c0e8ef245d02ca5cb34fc93fd6d4824a80f",
 			"license": "MIT",
 			"urls": [

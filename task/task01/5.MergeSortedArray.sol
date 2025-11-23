@@ -3,6 +3,7 @@ pragma solidity ^0.8;
 
 contract MergeSortedArray {
     uint256[] public arr;
+
     function merge(
         uint256[] memory a,
         uint256[] memory b
@@ -15,29 +16,30 @@ contract MergeSortedArray {
             arr.push(b[i]);
         }
 
-        return insertSort(arr);
+        arr = insertSort(arr);
+        return arr;
     }
 
     function insertSort(
-        uint256[] memory ary
+        uint256[] memory arr1
     ) public pure returns (uint256[] memory) {
-        uint256[] memory tempArr = ary;
-        uint256 temp; //定义一个临时变量，保存要插入的值；
+        uint256[] memory tempArr = arr1;
+        uint256 temp;
         uint256 len = tempArr.length;
-        uint256 pIndex; // 上一个值
+        uint256 pIndex;
         for (uint256 i = 1; i < len; ++i) {
-            temp = tempArr[i]; //需要插入的值；
+            temp = tempArr[i];
             pIndex = i;
             while (pIndex >= 1 && temp < tempArr[pIndex - 1]) {
-                tempArr[pIndex] = tempArr[pIndex - 1]; //相当于ary[i]=ary[i-1];
-                --pIndex; //准备下一波交换；
+                tempArr[pIndex] = tempArr[pIndex - 1];
+                --pIndex;
             }
-            tempArr[pIndex] = temp; //相当于ary[i-1]=temp; 因为上面 pIndex-- 了
+            tempArr[pIndex] = temp;
         }
         return tempArr;
     }
 
-    function getArr() public returns (uint256[] memory) {
+    function getArr() public view returns (uint256[] memory) {
         return arr;
     }
 }

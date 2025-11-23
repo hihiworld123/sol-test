@@ -6,32 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "roman1",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "string",
+						"internalType": "bytes1",
 						"name": "",
-						"type": "string"
+						"type": "bytes1"
 					}
 				],
 				"name": "romanData",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -48,9 +35,9 @@
 				"name": "romanToInt",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -70,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task/task01/RomanToInt.sol": "RomanToInt"
+			"task/task01/4.RomanToInt.sol": "RomanToInt"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -84,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"task/task01/RomanToInt.sol": {
-			"keccak256": "0xccf23245ad9aaa34ae6a99094a2ed4f8165540396601d655d1c1d93af9d25705",
+		"task/task01/4.RomanToInt.sol": {
+			"keccak256": "0xd03a7c16fb7c8ed9e61b3b34aabd8f168aed1114d8509b8683171355461f0452",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6350bb6967ed545dfaa73768c33f64d167a436b08620ba83ed54f469e81cfa23",
-				"dweb:/ipfs/QmQauejsXUpZU1n97wKjE1gpGvMTx5i6aPV3RfrEpBMcix"
+				"bzz-raw://86aaf3f615d543ce9ed7b4fcacda1d33eda549a089899e8e6ec780bf28646967",
+				"dweb:/ipfs/QmUbbNHUajAiAKwwLYiDmLvPPTwBUeiyoZ5StZap61xDcj"
 			]
 		}
 	},

@@ -34,14 +34,14 @@
 						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256[]",
-						"name": "ary",
+						"name": "arr1",
 						"type": "uint256[]"
 					}
 				],
@@ -94,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task/task01/mergeSortedArray.sol": "MergeSortedArray"
+			"task/task01/5.MergeSortedArray.sol": "MergeSortedArray"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -108,12 +108,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"task/task01/mergeSortedArray.sol": {
-			"keccak256": "0x020da8aea8bafc8185b87c124d1861e8dddfa21ea17dd27bb6929f669d7056e7",
+		"task/task01/5.MergeSortedArray.sol": {
+			"keccak256": "0x40c5209bccfdd7d05242d30472a5ab8e3aa9dfc66378fab7d0365b58a18a53e4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://892aff1660e29c2951e3ba9b60b2ddc333151f2422543ce4d9f039d69624b45a",
-				"dweb:/ipfs/QmVjYvZ8burPYhvc9P1mBVSgB9uH3SqpSFuUegTuuhYata"
+				"bzz-raw://c90ef29868f2beb221342b8bfeec96c8c7db0be531d1726386888a9ed8376f68",
+				"dweb:/ipfs/QmZfiaD3pSG7pVM49PBnH6PWV7YKnPJKBZcW6QvvHurFq7"
 			]
 		}
 	},

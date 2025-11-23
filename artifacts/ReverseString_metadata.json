@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task/task01/reverseString.sol": "ReverseString"
+			"task/task01/2.reverseString.sol": "ReverseString"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"task/task01/reverseString.sol": {
+		"task/task01/2.reverseString.sol": {
 			"keccak256": "0x092ae3e5f3226ad65cf51f0197107f2cbe203d0e22999cc9fa4d59adefb101b9",
 			"license": "MIT",
 			"urls": [
