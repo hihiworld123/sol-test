@@ -147,7 +147,7 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
         _allTokens[tokenIndex] = lastTokenId; // Move the last token to the slot of the to-delete token
         _allTokensIndex[lastTokenId] = tokenIndex; // Update the moved token's index
 
-        // This also deletes the contents at the last position of the array
+        // This also deletes the contents at the last position o_increaseBalancef the array
         delete _allTokensIndex[tokenId];
         _allTokens.pop();
     }
