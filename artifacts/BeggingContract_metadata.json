@@ -56,19 +56,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -114,11 +101,11 @@
 	},
 	"sources": {
 		"task/task02/task2.3/BeggingContract.sol": {
-			"keccak256": "0xfd267b0efb6fdb5dfb19479ff6cd2c2cdd443486fcdba0ddd524334e2063b858",
+			"keccak256": "0x00244bf6f4d7db36abebe13b6ed0fc5979a4cbe70a7eb6b3b0b031533fcf6179",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://92038c55ca1e477a2616ca362082bab4c464791687c2066e34fdcb9010d30ed2",
-				"dweb:/ipfs/QmYWCqkzdLCJfRhcmvEoT8DrqUUypNHjQ5uz7YLqctooty"
+				"bzz-raw://06d533494a9685190300f972f58898240de4c5c4e2b66e979379569b4e0bb956",
+				"dweb:/ipfs/QmNMtDRGw4gExt9aQU97rhzTh9L3C2ykLh8CqtLtGsxdsm"
 			]
 		}
 	},

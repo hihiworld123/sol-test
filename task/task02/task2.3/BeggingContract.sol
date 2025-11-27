@@ -2,10 +2,15 @@
 pragma solidity ^0.8;
 
 contract BeggingContract {
-    address public owner;
+    address private owner;
     mapping(address => uint256) private treasureBowl;
 
     event Donate(address donor, uint256 amount);
+
+    struct TopObject {
+        address addr;
+        uint256 amount;
+    }
 
     constructor() payable {
         owner = msg.sender;
