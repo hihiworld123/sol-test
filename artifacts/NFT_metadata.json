@@ -6,7 +6,18 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -912,11 +923,11 @@
 			]
 		},
 		"task/task02/task2.2/NFT.sol": {
-			"keccak256": "0x7fbf5697476b3897a5f231738a77105082e32a1e4ec5563427874585f6fdb881",
+			"keccak256": "0x84a3d29784dec1fdcddc80b0d3cee77250e72b6583ed4e65303bb7682edc1780",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://84a58e99d86ffeff794ebc3e79510f54f28ad1a54c7cb4bffe326fa39e558641",
-				"dweb:/ipfs/QmS1S8JxZyacaGQrVbJQNaGmyYgg3CG6rWziW3YKrjj3gG"
+				"bzz-raw://29e1db208376712f24c7f75a4ac149fa7f08cf9119eb86d5c8e049f0a2784820",
+				"dweb:/ipfs/QmQLWhpHuPFB1cKFg9yMAbtNB65z7MLaWwXdU5PSRYbsxR"
 			]
 		}
 	},
